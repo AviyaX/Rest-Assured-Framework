@@ -1,0 +1,123 @@
+
+
+===================== API Request =====================
+Timestamp: 2024-09-25 04:44:22.035
+======================================================
+Headers:
+  site-id: Site 5000
+  site-name: Test Site test
+  promiseq-subscription-key: hIprIAtfykOknaSUG3tZ
+  is-hardware-device: false
+Request method:	PUT
+Request URI:	https://promiseq-staging-api.promiseq.com/site
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		site-id=Site 5000
+				site-name=Test Site test
+				promiseq-subscription-key=hIprIAtfykOknaSUG3tZ
+				is-hardware-device=false
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 24 Sep 2024 23:14:23 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 113
+Connection: keep-alive
+X-Powered-By: Express
+Vary: Origin
+ETag: W/"71-facYOiN5C1aiiWlHwcQzFFeuDOk"
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+{
+    "client_id": "client-c7a1-e15a-a901",
+    "site_id": "Site 5000",
+    "site_name": "Test Site test",
+    "isHardwareDevice": false
+}
+
+
+===================== API Request =====================
+Timestamp: 2024-09-25 04:44:23.452
+======================================================
+Headers:
+  site-id: Site 5000
+  site-name: Test Site test
+  promiseq-subscription-key: hIprIAtfykOknaSUG3tZ
+  is-hardware-device: false
+Request method:	GET
+Request URI:	https://promiseq-staging-api.promiseq.com/site
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		site-id=Site 5000
+				site-name=Test Site test
+				promiseq-subscription-key=hIprIAtfykOknaSUG3tZ
+				is-hardware-device=false
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 24 Sep 2024 23:14:24 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 122
+Connection: keep-alive
+X-Powered-By: Express
+Vary: Origin
+ETag: W/"7a-fQPpfA7Q17K6S4w/oRMk21p9zP8"
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+{
+    "site_id": "Site 5000",
+    "client_id": "client-c7a1-e15a-a901",
+    "name": "Test Site test",
+    "createdAt": "2024-09-24T23:14:23.101Z"
+}
+
+
+===================== API Request =====================
+Timestamp: 2024-09-25 04:44:24.073
+======================================================
+Headers:
+  site-id: Site 5000
+  site-name: Test Site test
+  promiseq-subscription-key: hIprIAtfykOknaSUG3tZ
+  is-hardware-device: false
+Request method:	DELETE
+Request URI:	https://promiseq-staging-api.promiseq.com/site
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		site-id=Site 5000
+				site-name=Test Site test
+				promiseq-subscription-key=hIprIAtfykOknaSUG3tZ
+				is-hardware-device=false
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 24 Sep 2024 23:14:24 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 34
+Connection: keep-alive
+X-Powered-By: Express
+Vary: Origin
+ETag: W/"22-6IoHKe6F3f/OkIETcx9tUl8GbxM"
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+{
+    "message": "Successfully deleted"
+}
