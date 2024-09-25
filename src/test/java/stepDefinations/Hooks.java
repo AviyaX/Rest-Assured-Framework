@@ -1,4 +1,4 @@
-package step_definitions;
+package stepDefinations;
 
 import io.cucumber.java.Before;
 import java.io.IOException;
