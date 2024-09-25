@@ -14,7 +14,7 @@ import java.util.Map;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.response.Response;
 
-public class StepDefinations extends Utils {
+public class StepDefinitions extends Utils {
 
 	public static String siteId;  // This will store the site ID between steps
 	RequestSpecification res;

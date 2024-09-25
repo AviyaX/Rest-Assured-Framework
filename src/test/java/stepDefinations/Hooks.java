@@ -9,10 +9,10 @@ public class Hooks {
 
 	@Before("@DeleteSite")
 	public void beforeDeleteSiteScenario() throws IOException {
-		StepDefinations stepDef = new StepDefinations();
+		StepDefinitions stepDef = new StepDefinitions();
 
 		// Check if siteId is null, if so, create a site first
-		if (StepDefinations.siteId == null) {
+		if (StepDefinitions.siteId == null) {
 			// Use default headers from global.properties via Utils class
 			Map<String, String> headers = new Utils().getDefaultHeaders();
 
@@ -23,7 +23,7 @@ public class Hooks {
 			// Fetch the siteId from the response and store it
 			String fetchedSiteId = stepDef.response.jsonPath().getString("site_id");
 			if (fetchedSiteId != null) {
-				StepDefinations.siteId = fetchedSiteId;
+				StepDefinitions.siteId = fetchedSiteId;
 			} else {
 				System.out.println("Failed to retrieve site_id from response.");
 			}
