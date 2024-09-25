@@ -1,4 +1,4 @@
-package stepDefinations;
+package step_definitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -16,7 +16,7 @@ import io.restassured.response.Response;
 
 public class StepDefinitions extends Utils {
 
-	public static String siteId;  // This will store the site ID between steps
+	public static String siteId; // This will store the site ID between steps
 	RequestSpecification res;
 	Response response;
 
@@ -54,10 +54,9 @@ public class StepDefinitions extends Utils {
 
 	@Then("{string} in response body is {string}")
 	public void in_response_body_is(String key, String expectedValue) {
-		System.out.println("Actual response: " + response.getBody().asString());  // Debugging
+		System.out.println("Actual response: " + response.getBody().asString()); // Debugging
 		assertEquals(expectedValue, response.jsonPath().getString(key));
 	}
-
 
 	@Then("store the site_id from response")
 	public void store_the_site_id_from_response() {
