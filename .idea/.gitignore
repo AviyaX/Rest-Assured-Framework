@@ -6,3 +6,15 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# Ignore build outputs
+/target/
+
+# IntelliJ IDEA project files
+/.idea/
+
+# Eclipse and other IDE settings
+/.settings/
+
+# Log files
+logging.txt
