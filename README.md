@@ -63,17 +63,6 @@ This project is an **API Test Automation Framework** built using **Java**, **Res
    git clone https://github.com/your-repo-url.git
    ```
 
-2. **Navigate to the project directory**:
-   ```bash
-   cd APIFramework
-   ```
-
-3. **Install dependencies**:
-   Run Maven to install all required dependencies:
-   ```bash
-   mvn clean install
-   ```
-
 4. **Configure global properties**:
    Update the `global.properties` file located in `src/test/java/resources`:
    ```properties
@@ -178,6 +167,14 @@ mvn test
 ```
 
 This will execute all the scenarios defined in your feature files and log the request and response details.
+
+## Running Tests
+You can run the tests via **Maven** and create reports using:
+```bash
+mvn clear test verify
+```
+
+This will execute all the scenarios defined in your feature files and log the request and response details with HTML reports.
 
 ## Test Data
 - **`TestDataBuild.java`** is designed to generate dynamic JSON payloads for site creation and deletion. Example methods include:
